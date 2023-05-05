@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+.responsiva {
+    width: 100%;
+    height: auto;}
+    
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ececec;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+    color: #F2A900;
+    transition: 300ms;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    max-width: 300px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #1f1f1f;
+  }
+  .card:hover{
+    background-color: rgb(214, 214, 214);
+    transition: 300ms;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .card h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+  
+  .card p.price {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .card p {
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+  
+  .card button {
+    margin-top: 10px;
+    background-color: #434101;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .card button:hover {
+    background-color: #888888;
+  }
+ .cards h2, p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    
+ }
+  
+  
+  
+  
+  
+  
+  
